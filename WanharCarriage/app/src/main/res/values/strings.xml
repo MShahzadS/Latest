@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Wanhar</string>
+
+    <string-array name="expensetypes">
+        <item name="1">Dining</item>
+        <item name="2">Mobile Expense</item>
+        <item name="3">Electricity</item>
+        <item name="4">Rent</item>
+        <item name="5">Others</item>
+    </string-array>
+    <string-array name="pioneertypes">
+        <item name="1">Ex-Factory</item>
+        <item name="4">Deliver</item>
+    </string-array>
+    <string-array name="factories">
+        <item name="1">Mapple</item>
+        <item name="2">Pioneer</item>
+        <item name="3">Flying</item>
+    </string-array>
+    <string-array name="mapplestatus">
+        <item name="1">Outside VPS</item>
+        <item name="2">Inside VPS</item>
+        <item name="3">Cleared</item>
+        <item name="4">Completed</item>
+    </string-array>
+
+
+    <string name="title_activity_employee_profile">Profile</string>
+    <string name="tab_income">Income</string>
+    <string name="tab_expense">Expense</string>
+    <string name="tab_profile">Profile</string>
+    <string name="title_activity_mapple_leaf">Mapple Leaf Cement</string>
+    <string name="tab_ovps">Outside VPS</string>
+    <string name="tab_vps">VPS</string>
+    <string name="tab_cleared">Cleared</string>
+    <string name="tab_completed">Completed</string>
+    <string name="title_activity_pioneer">Pioneer Cement</string>
+    <string name="tab_exfactory">ExFactory</string>
+    <string name="tab_Deliver">Deliver</string>
+</resources>

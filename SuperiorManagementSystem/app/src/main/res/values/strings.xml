@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Superior Management System</string>
+    <string-array name="myspinner">
+        <item> Select a Subject</item>
+        <item>Mobile Computing</item>
+        <item>IT project</item>
+        <item>SNA</item>
+        <item>DBA</item>
+    </string-array>
+
+
+    <string-array name="spinner2">
+        <item>Select course year </item>
+        <item>Term 1</item>
+        <item>Term 2</item>
+        <item>Term 3</item>
+        <item>Term 4</item>
+    </string-array>
+
+    <string-array name="spinner3">
+        <item>Select section</item>
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".EditProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ringer and Notification"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/swtRinger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekRinger"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:max="7"
+        android:padding="20sp"
+        android:progressDrawable="@color/colorWhite" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alarm"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/swtAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/seekAlarm"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:max="7"
+            android:padding="20sp"
+            android:progressDrawable="@color/colorWhite" />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="2sp"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Media"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/swtMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekMedia"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:max="100"
+        android:padding="20sp"
+        android:progressDrawable="@color/colorWhite" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="true"
+            android:padding="10sp"
+            android:text="Note"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp" android:textAlignment="center"
+            android:text="Some Settings might not work due to security policy of android"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="2sp"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WIFI"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/swtWifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="2sp"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/swtBluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="2sp"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Connection"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+
+        <Switch
+            android:id="@+id/swtDataConnection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="2sp"
+            android:orientation="horizontal"
+            android:padding="10sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/swtGPS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="2sp"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aeroplane Mode"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/swtplane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="2sp"
+            android:padding="10sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Auto Rotation"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp" />
+
+            <Switch
+                android:id="@+id/swtRotate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:background="@color/colorAccent"
+        android:textSize="30sp"
+        android:textColor="@color/colorWhite"
+        android:text="Brightness"
+        />
+    <SeekBar
+        android:id="@+id/seekBrightness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:max="255"
+        android:padding="20sp"
+        android:progressDrawable="@color/colorWhite" />
+        <Button
+            android:id="@+id/btnSaveSettings"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="20sp"
+            android:text="Save Profile"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

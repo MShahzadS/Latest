@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewPayment">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:layout_height="300sp"
+                android:gravity="top">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20sp"
+                    android:textSize="40sp"
+                    android:text="Create Payment"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="100sp"
+                android:id="@+id/layoutInput"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorWhite"
+                android:padding="20dp"
+                android:orientation="vertical"
+                android:elevation="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_marginTop="10sp"
+                    android:text="Date"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edtPaymentDate"
+                    android:drawablePadding="20sp"
+                    android:hint="DD/MM/YYYY"
+                    android:layout_marginTop="5sp"
+                    android:inputType="none"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10sp"
+                    android:text="Paid By"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edtPaidBy"
+                    android:drawablePadding="20sp"
+                    android:hint="Payer Name"
+                    android:layout_marginTop="5sp"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10sp"
+                    android:text="Paid To"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edtPaidTo"
+                    android:drawablePadding="20sp"
+                    android:hint="Reciever Name"
+                    android:layout_marginTop="5sp"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10sp"
+                    android:text="Detail"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edtPaymentDetail"
+                    android:drawablePadding="20sp"
+                    android:hint="Reason of Payment"
+                    android:layout_marginTop="5sp"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="20sp"
+                    android:text="Amount"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edtPaymentAmount"
+                    android:drawablePadding="20sp"
+                    android:layout_marginTop="5sp"
+                    android:hint="2000"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnSavePayment"
+                    android:textColor="#FFF"
+                    android:background="@color/colorAccent"
+                    android:layout_marginTop="20dp"
+                    android:textAllCaps="false"
+                    android:onClick="savePayment"
+                    android:text="Save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layoutInput"
+                android:layout_marginTop="30sp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:text=""
+                android:textAlignment="center"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

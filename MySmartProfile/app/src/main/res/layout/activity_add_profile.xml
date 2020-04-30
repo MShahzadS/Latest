@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="20sp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Profile"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="20sp"
+    />
+
+    <EditText
+        android:id="@+id/edtprofileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:textSize="25sp"
+        android:hint="Profile Name"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Icon"
+        android:textSize="20sp"
+        android:padding="20sp"
+        android:textColor="@color/colorPrimaryDark"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/wifi"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/ic_network_wifi_"
+            android:layout_margin="5sp"
+            />
+
+        <ImageView
+            android:id="@+id/plane"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/ic_noconnection"
+            android:layout_margin="5sp"
+        />
+        <ImageView
+            android:id="@+id/bluetooth"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/ic_bluetooth_on"
+            android:layout_margin="5sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/school"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/ic_school"
+            android:layout_margin="5sp"
+            />
+
+        <ImageView
+            android:id="@+id/theater"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/ic_theaters"
+            android:layout_margin="5sp"
+            />
+        <ImageView
+            android:id="@+id/room"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/ic_room"
+            android:layout_margin="5sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/car"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/ic_car"
+            android:layout_margin="5sp"
+            />
+
+        <ImageView
+            android:id="@+id/bus"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/ic_bus"
+            android:layout_margin="5sp"
+            />
+        <ImageView
+            android:id="@+id/subway"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/ic_subway"
+            android:layout_margin="5sp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSavePofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:padding="20sp"
+        android:text="Save Profile"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center"
+        />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

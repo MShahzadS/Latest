@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.idc.wanharcarriage">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".FlyingEmployeeDashboard"
+            android:label="Welcome"/>
+        <activity android:name=".PioneerEmployeeDashboard"
+            android:label="Welecome"/>
+        <activity android:name=".UnloadingNew"
+            android:label="Unloading Issue"
+            android:parentActivityName=".MappleCompleteDetails" />
+        <activity android:name=".PioneerOrderDetails"
+            android:label="Pioneer Order"
+            android:parentActivityName=".Pioneer" />
+        <activity android:name=".PioneerNewBill"
+            android:label="Pioneer Bill"
+            android:parentActivityName=".Pioneer" />
+        <activity android:name=".PioneerBillDetails"
+            android:label="Pioneer Bill"
+            android:parentActivityName=".PioneerBillActivity" />
+        <activity android:name=".PioneerBillActivity"
+            android:label="Pioneer Bill"
+            android:parentActivityName=".Pioneer" />
+        <activity android:name=".FlyingOrderDetails"
+            android:label="Flying Order"
+            android:parentActivityName=".FlyingActivity" />
+        <activity android:name=".FlyingOrderActivity"
+            android:label="Flying Order"
+            android:parentActivityName=".FlyingActivity" />
+        <activity android:name=".PioneerOrderActivity"
+            android:label="Pioneer"
+            android:parentActivityName=".Pioneer" />
+        <activity android:name=".MappleCompleteDetails"
+            android:label="Mapple"
+            android:parentActivityName=".MappleLeafActivity" />
+        <activity android:name=".MappleClearDetails"
+            android:label="Mapple"
+            android:parentActivityName=".MappleLeafActivity" />
+        <activity android:name=".MappleVpsDetails"
+            android:label="Mapple"
+            android:parentActivityName=".MappleLeafActivity" />
+        <activity android:name=".MappleOvpsDetails"
+            android:label="Mapple"
+            android:parentActivityName=".MappleLeafActivity" />
+        <activity android:name=".MappleOrderActivity"
+            android:label="Mapple Leaf"
+            android:parentActivityName=".MappleLeafActivity" />
+        <activity android:name=".FlyingActivity"
+            android:label="Flying Cement"
+            android:parentActivityName=".AdminDashboard" />
+        <activity android:name=".Pioneer"
+            android:label="@string/title_activity_pioneer"
+            android:parentActivityName=".AdminDashboard" />
+        <activity android:name=".MappleLeafActivity"
+            android:label="@string/title_activity_mapple_leaf"
+            android:parentActivityName=".AdminDashboard" />
+        <activity android:name=".EmployeeProfile"
+            android:label="Profile"
+            android:parentActivityName=".MappleEmployeeDashboard" />
+        <activity android:name=".MappleEmployeeDashboard"
+            android:label="Welcome" />
+        <activity android:name=".EmployeeDetails"
+            android:label="Employee"
+            android:parentActivityName=".EmployeeActivity" />
+        <activity android:name=".VehicleDetails"
+            android:label="Vehicle"
+            android:parentActivityName=".VehicleActivity" />
+        <activity android:name=".DriverDetails"
+            android:label="Driver"
+            android:parentActivityName=".DriverActivity" />
+        <activity android:name=".CustomerDetails"
+            android:label="Customer"
+            android:parentActivityName=".CustomerActivity" />
+        <activity android:name=".PaymentDetails"
+            android:label="Payment"
+            android:parentActivityName=".PaymentActivity" />
+        <activity android:name=".ExpenseDetails"
+            android:label="Expense"
+            android:parentActivityName=".ExpenseActivity" />
+        <activity android:name=".IncomeDetails"
+            android:label="Income"
+            android:parentActivityName=".IncomeActivity" />
+        <activity android:name=".NewEmployeeActivity"
+            android:label="Employee"
+            android:parentActivityName=".EmployeeActivity" />
+        <activity android:name=".NewPayment"
+            android:label="Payment"
+            android:parentActivityName=".PaymentActivity" />
+        <activity android:name=".PaymentActivity"
+            android:label="Payment"
+            android:parentActivityName=".AdminDashboard" />
+        <activity android:name=".NewIncome"
+            android:label="Income"
+            android:parentActivityName=".IncomeActivity" />
+        <activity android:name=".EmployeeActivity"
+            android:label="Employee"
+            android:parentActivityName=".AdminDashboard" />
+        <activity android:name=".VehicleActivity"
+            android:label="Vehicle"
+            android:parentActivityName=".AdminDashboard" />
+        <activity android:name=".DriverActivity"
+            android:label="Driver"
+            android:parentActivityName=".AdminDashboard" />
+        <activity android:name=".CustomerActivity"
+            android:label="Customer"
+            android:parentActivityName=".AdminDashboard" />
+        <activity android:name=".ExpenseActivity"
+            android:label="Expense"
+            android:parentActivityName=".AdminDashboard" />
+        <activity android:name=".IncomeActivity"
+            android:label="Income"
+            android:parentActivityName=".AdminDashboard" />
+        <activity android:name=".AdminDashboard"
+            android:label="Welcome Wanhar" />
+        <activity android:name=".Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context=".StudentDashboard">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/pic"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/btnstdResult"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="50dp"
+        android:background="#7CB342"
+        android:textColor="#ffffff"
+        android:text="View Result" />
+
+    <Button
+        android:id="@+id/btnstdtime"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@id/btnstdResult"
+        android:background="#c458b5"
+        android:textColor="#ffffff"
+        android:text="View timetable" />
+
+    <Button
+        android:id="@+id/btnstdq"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btnstdResult"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#8E24AA"
+        android:textColor="#ffffff"
+        android:text="Ask Questions" />
+
+    <Button
+        android:id="@+id/btnstdAttendance"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btnstdtime"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_toRightOf="@id/btnstdq"
+        android:textColor="#ffffff"
+        android:background="#009688"
+        android:text="View Attendance" />
+
+            <Button
+                android:id="@+id/btnComplaint"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/btnstdq"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="60dp"
+                android:background="#000FFF"
+                android:textColor="#ffffff"
+                android:text="Add Complaint" />
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/btnstdAttendance"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@id/btnComplaint"
+                android:textColor="#ffffff"
+                android:background="#D00D00"
+                android:text="Logout" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

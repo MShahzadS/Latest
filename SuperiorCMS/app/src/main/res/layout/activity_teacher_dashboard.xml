@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context=".TeacherDashboard">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/pic"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/btnteachattend"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#ffffff"
+        android:background="#0f0f0f"
+        android:text="Mark Attendance" />
+
+    <Button
+        android:id="@+id/btnteachtime"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@id/btnteachattend"
+        android:background="#c458b5"
+        android:textColor="#ffffff"
+        android:text="View timetable" />
+
+    <Button
+        android:id="@+id/btnteachans"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btnteachattend"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#7ca987"
+        android:textColor="#ffffff"
+        android:text="Give Answer" />
+
+    <Button
+        android:id="@+id/btnteachlev"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btnteachtime"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_toRightOf="@id/btnteachans"
+        android:background="#009688"
+        android:textColor="#ffffff"
+        android:text="Apply Leave" />
+
+    <Button
+        android:id="@+id/btnViewExams"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btnteachans"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#000FFF"
+        android:textColor="#ffffff"
+        android:text="Add Result" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btnteachlev"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_toRightOf="@id/btnViewExams"
+        android:background="#D00D00"
+        android:textColor="#ffffff"
+        android:text="Logout" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".AddExam">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="Class" />
+
+    <Spinner
+        android:id="@+id/spnrclasslist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:layout_margin="10sp"
+        android:textAlignment="center"
+        android:background="#efefef"
+
+        />
+
+    <EditText
+        android:id="@+id/edtexamName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:hint="Exam Name" />
+
+    <EditText
+        android:id="@+id/edtEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="Start Date (YYYY-MM-DD)"
+        android:ems="10"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edtStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="End Date (YYYY-MM-DD)"
+        android:ems="10"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btnSaveExam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="AddExam" />
+</LinearLayout>

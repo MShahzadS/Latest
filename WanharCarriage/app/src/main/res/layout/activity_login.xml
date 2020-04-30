@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="300sp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageVIew"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="@color/colorWhite"
+            android:padding="5dp"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:id="@+id/layoutInput"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorWhite"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:elevation="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="40sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imageVIew"
+            android:text="Login"
+            android:background="@color/colorWhite"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10sp"
+            android:text="CNIC"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtCNIC"
+            android:drawablePadding="20sp"
+            android:hint="3820112345678"
+            android:inputType="number"
+            android:maxLines="1"
+            android:layout_marginTop="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="20sp"
+            android:text="Password"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtPassword"
+            android:drawablePadding="20sp"
+            android:layout_marginTop="5sp"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:hint="******"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:textColor="#FFF"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutInput"
+            android:layout_marginTop="30sp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:text="Contact : 0301-2474700"
+            android:textAlignment="center"
+            />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

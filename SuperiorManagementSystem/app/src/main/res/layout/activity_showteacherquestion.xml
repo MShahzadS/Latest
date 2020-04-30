@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".showteacherquestion">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="40sp"
+        android:src="@drawable/superior" />
+    <ListView
+        android:id="@+id/teacherQlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="#F0F0F5"
+        android:layout_marginTop="150sp"
+        android:divider="#20000000"
+        android:dividerHeight="2sp"/>
+</RelativeLayout>

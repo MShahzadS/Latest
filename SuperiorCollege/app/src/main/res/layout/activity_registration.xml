@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00897B"
+    android:padding="20sp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".Registration">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:layout_marginTop="60sp"
+                android:src="@drawable/superior" />
+
+            <EditText
+                android:id="@+id/edtname"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="30sp"
+                android:layout_below="@id/logo"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Name"
+                android:textAlignment="center"
+                android:textColorHint="#fff"/>
+
+            <EditText
+                android:id="@+id/edtemail"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_below="@id/edtname"
+                android:ems="10"
+                android:textColorHint="#fff"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/edtpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColorHint="#fff"
+                android:layout_below="@id/edtemail"
+                android:textAlignment="center"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+
+            <EditText
+                android:id="@+id/edtconfirmpassword"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_below="@id/edtpassword"
+                android:ems="10"
+                android:textColorHint="#fff"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:textAlignment="center" />
+
+            <RadioGroup
+                android:id="@+id/rdUserType"
+                android:layout_below="@id/edtconfirmpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_margin="20sp">
+
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teacher"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/radioFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Student" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btnsignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rdUserType"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:padding="30dp"
+                android:textColor="#00897B"
+                android:layout_centerHorizontal="true"
+                android:text="Sign up" />
+
+            <TextView
+                android:id="@+id/txtnewlogin"
+                android:layout_below="@id/btnsignup"
+                android:layout_marginLeft="90dp"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already register then Login" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

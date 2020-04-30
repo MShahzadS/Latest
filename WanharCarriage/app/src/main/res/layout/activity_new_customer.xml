@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewCustomerDialog">
+
+            <LinearLayout
+                android:id="@+id/layoutInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:padding="10sp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_marginTop="10sp"
+                    android:text="Name"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edtCustomerName"
+                    android:drawablePadding="20sp"
+                    android:hint="Customer Name"
+                    android:layout_marginTop="5sp"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="20sp"
+                    android:text="Contact Number"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edtCustomerContact"
+                    android:drawablePadding="20sp"
+                    android:layout_marginTop="5sp"
+                    android:hint="03xx-xxxxxxx"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10sp"
+                    android:text="Address"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edtCustomerAddress"
+                    android:drawablePadding="20sp"
+                    android:hint="Address"
+                    android:layout_marginTop="5sp"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="20sp"
+                    android:text="Company"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edtCustomerCompany"
+                    android:drawablePadding="20sp"
+                    android:layout_marginTop="5sp"
+                    android:hint="Company Name"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+</RelativeLayout>

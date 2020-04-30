@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:padding="20sp"
+    android:gravity="center"
+    tools:context=".ApplyLeave">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply Leave"
+        android:textSize="40sp"
+        android:textAlignment="center" />
+
+   <DatePicker
+       android:id="@+id/edtlvDate"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:datePickerMode="spinner"
+       />
+
+
+
+    <EditText
+        android:id="@+id/edtlvReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Reason"
+        android:layout_margin="20sp"
+        android:textAlignment="center"
+         />
+
+
+    <EditText
+        android:id="@+id/edtlvDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:ems="10"
+        android:layout_margin="20sp"
+        android:hint="Number of Days"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnApplyLeave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="Apply now" />
+</LinearLayout>

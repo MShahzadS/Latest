@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".answer">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50sp"
+        android:src="@drawable/superior"
+        />
+
+
+    <TextView
+        android:id="@+id/txtanswer"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#00897b"
+        android:text="ANSWER" />
+
+
+    <EditText
+        android:id="@+id/edtanswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColorHint="#00897b"
+        android:layout_marginLeft="55sp"
+        android:layout_marginRight="55dp"
+        android:layout_below="@id/txtanswer"
+        android:hint="Give answer" />
+
+    <Button
+        android:id="@+id/btnanswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtanswer"
+        android:layout_marginTop="90dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:layout_centerHorizontal="true"
+        android:text="Submit" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

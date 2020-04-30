@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "996842748291",
+    "firebase_url": "https://mysuperiorcms.firebaseio.com",
+    "project_id": "mysuperiorcms",
+    "storage_bucket": "mysuperiorcms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996842748291:android:2755f5817e63108e98deb6",
+        "android_client_info": {
+          "package_name": "com.sumaira.superiorcms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996842748291-mibvhresq5kphlhk107am0dvh1os05ns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sumaira.superiorcms",
+            "certificate_hash": "e7123fb2426a71eecdc26ceddbc76dcde2d986a0"
+          }
+        },
+        {
+          "client_id": "996842748291-gjlpmh2qqkr63h1nbokdqb0ud0eepv9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdVZ6l9pEVdeCTuTpmA7P1AIUM6Y6SBoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996842748291-gjlpmh2qqkr63h1nbokdqb0ud0eepv9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

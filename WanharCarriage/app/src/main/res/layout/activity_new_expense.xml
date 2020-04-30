@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewExpenseDialog">
+
+
+            <LinearLayout
+                android:id="@+id/layoutInput"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorWhite"
+                android:padding="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_marginTop="10sp"
+                    android:text="Date"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edtexpenseDate"
+                    android:drawablePadding="20sp"
+                    android:hint="DD/MM/YYYY"
+                    android:layout_marginTop="5sp"
+                    android:inputType="none"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_marginTop="10sp"
+                    android:text="Expense Type"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Spinner
+                    android:id="@+id/spinnerExpenseType"
+                    android:padding="10sp"
+                    android:layout_marginTop="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/expensetypes"/>
+                <TextView
+                    android:layout_marginTop="20sp"
+                    android:text="Amount"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:id="@+id/edtExpenseAmount"
+                    android:drawablePadding="20sp"
+                    android:layout_marginTop="5sp"
+                    android:hint="2000"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10sp">
+
+
+    <TextView
+        android:id="@+id/txtAtdStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="Student name" />
+
+            <RadioGroup
+                android:id="@+id/rdiostatus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+            <RadioButton
+                android:id="@+id/btnpresent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_weight="1"
+                android:text="P" />
+
+            <RadioButton
+                android:id="@+id/btnabsent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_weight="1"
+                android:text="A" />
+
+            <RadioButton
+                android:id="@+id/btnleave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_weight="1"
+                android:text="L" />
+
+            </RadioGroup>
+
+ </LinearLayout>

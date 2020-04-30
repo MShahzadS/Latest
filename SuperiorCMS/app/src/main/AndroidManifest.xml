@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sumaira.superiorcms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AddComplaint"
+            android:label="Add Complaint"
+            android:parentActivityName=".StudentDashboard"
+            ></activity>
+        <activity android:name=".ViewResults"
+            android:label="View Result"
+            android:parentActivityName=".StudentExams"
+            />
+        <activity android:name=".StudentExams"
+            android:label="Select Exam"
+            android:parentActivityName=".StudentDashboard"
+            />
+        <activity android:name=".StudentAttendance"
+            android:label="Attendance"
+            android:parentActivityName=".StudentDashboard"
+            />
+        <activity android:name=".StudentTimetable"
+            android:label="Timetable"
+            android:parentActivityName=".StudentDashboard"
+            />
+
+        <activity android:name=".AddResult"
+            android:label="Add Result"
+            android:parentActivityName=".TeacherDashboard"
+            />
+        <activity android:name=".AddExam"
+            android:label="Add Exam"
+            android:parentActivityName=".ViewExams"
+            />
+        <activity android:name=".ViewExams"
+            android:label="Exams"
+            android:parentActivityName=".TeacherDashboard"/>
+        <activity android:name=".ResultsList"
+            android:label="Results"
+            android:parentActivityName=".StudentExams"/>
+        <activity android:name=".ViewAnswer"
+            android:label="Answer"
+            android:parentActivityName=".StudentDashboard"
+            />
+        <activity android:name=".StudentQuestions"
+            android:label="Questions"
+            android:parentActivityName=".StudentDashboard"
+            />
+        <activity android:name=".StudentDashboard"
+            android:label="Dashboard"
+            android:parentActivityName=".StudentLogin"/>
+        <activity android:name=".StudentLogin"
+            android:label="Login"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".Aboutus"
+            android:label="Superior College"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AnswerQuestion"
+            android:label="Answer"
+            android:parentActivityName=".TeacherDashboard"/>
+        <activity android:name=".AskQuestion"
+            android:label="Ask Question"
+            android:parentActivityName=".StudentQuestions"/>
+        <activity android:name=".ViewQuestions"
+            android:label="Questions"
+            android:parentActivityName=".TeacherDashboard"/>
+        <activity android:name=".ApplyLeave"
+            android:label="Apply Leave"
+            android:parentActivityName=".TeacherDashboard"/>
+        <activity android:name=".ViewTimeTable"
+            android:label="Timetable"
+            android:parentActivityName=".TeacherDashboard"/>
+        <activity android:name=".StudentRegistration"
+            android:label="Register"
+            android:parentActivityName=".StudentLogin"/>
+        <activity android:name=".AttendanceList"
+            android:label="Attendance"
+            android:parentActivityName=".TeacherDashboard"/>
+        <activity android:name=".MarkAttendance"
+            android:label="Mark Attendance"
+            android:parentActivityName=".AttendanceList"/>
+        <activity android:name=".AddClass"
+            android:label="Add Class"
+            android:parentActivityName=".TeacherDashboard"/>
+        <activity android:name=".ViewClasses"
+            android:label="Classes"
+            android:parentActivityName=".TeacherDashboard"/>
+        <activity android:name=".TeacherDashboard"
+            android:label="Dashboard"
+            android:parentActivityName=".Login"/>
+        <activity android:name=".Registration"
+            android:label="Register"
+            android:parentActivityName=".Login"/>
+        <activity android:name=".Login"
+            android:label="Login"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

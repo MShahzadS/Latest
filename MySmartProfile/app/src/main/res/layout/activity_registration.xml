@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="20sp"
+    android:background="@drawable/back"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        tools:text="Welcome" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:backgroundTintMode="src_in"
+        android:hint="Name"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textSize="25sp"
+        android:padding="20sp"
+        android:layout_marginTop="20sp"
+         />
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:backgroundTintMode="src_in"
+        android:hint="Email"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:padding="20sp"
+        android:layout_marginTop="20sp"
+         />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:backgroundTintMode="src_in"
+        android:hint="Password"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textSize="25sp"
+        android:padding="20sp"
+        android:layout_marginTop="20sp"
+         />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:layout_marginTop="25sp"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        android:padding="20sp"
+        android:layout_marginTop="25sp"
+        android:text="Already have Account? Login" />
+
+</LinearLayout>

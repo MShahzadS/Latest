@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context=".dashboardstd">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/pic"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/btnstdResult"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="50dp"
+        android:background="#7CB342"
+        android:textColor="@color/colorWhite"
+        android:text="View Result" />
+
+    <Button
+        android:id="@+id/btnstdtime"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@id/btnstdResult"
+        android:background="#c458b5"
+        android:textColor="@color/colorWhite"
+        android:text="View timetable" />
+
+    <Button
+        android:id="@+id/btnstdq"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btnstdResult"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:background="#8E24AA"
+        android:textColor="@color/colorWhite"
+        android:text="Ask Questions" />
+
+    <Button
+        android:id="@+id/btnstdevents"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/btnstdtime"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_toRightOf="@id/btnstdq"
+        android:textColor="@color/colorWhite"
+        android:background="#009688"
+        android:text="View Events" />
+
+
+</RelativeLayout>

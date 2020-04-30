@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1008396142178",
+    "firebase_url": "https://my-smart-profile-776a8.firebaseio.com",
+    "project_id": "my-smart-profile-776a8",
+    "storage_bucket": "my-smart-profile-776a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008396142178:android:6c446b69f9f19b2c8df33b",
+        "android_client_info": {
+          "package_name": "com.shaheen.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008396142178-gt7jeshdifi81blb72sboqev91a2lthc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shaheen.myapplication",
+            "certificate_hash": "e7123fb2426a71eecdc26ceddbc76dcde2d986a0"
+          }
+        },
+        {
+          "client_id": "1008396142178-iddte2aea97glllhgcjof37lnk6l9dhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyBrz8v5Co4ZJmig92mIvVKo_hJWipc4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008396142178-iddte2aea97glllhgcjof37lnk6l9dhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

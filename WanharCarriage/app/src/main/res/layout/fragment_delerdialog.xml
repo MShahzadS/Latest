@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delaer Name"
+            android:padding="10sp"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            />
+            <ImageView
+                android:id="@+id/btnAddCustomer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_add"
+                android:background="@color/colorAccent"
+                />
+    </LinearLayout>
+
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:id="@+id/customerspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:padding="10sp"
+        />
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:text="Weight"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2" >
+
+        <EditText
+            android:id="@+id/edttonweight"
+            android:drawablePadding="20sp"
+            android:layout_margin="5sp"
+            android:hint="Tons"
+            android:inputType="number"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/edtbagweight"
+            android:inputType="number"
+            android:maxLines="1"
+            android:drawablePadding="20sp"
+            android:layout_margin="5sp"
+            android:hint="Bags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:text="Freight"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtdealerfreight"
+        android:layout_marginTop="5sp"
+        android:hint="Freight per Ton"
+        android:inputType="number"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:text="Destination"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtdestination"
+        android:inputType="text"
+        android:layout_marginTop="5sp"
+        android:hint="Where to Drop"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+</LinearLayout>

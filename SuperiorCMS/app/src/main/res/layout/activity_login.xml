@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00897B"
+    android:padding="20sp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="60sp"
+        android:src="@drawable/superior"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20sp"
+                android:ems="10"
+                android:textAlignment="center"
+                android:layout_marginTop="250sp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textColorHint="#fff"
+                android:textSize="25sp"
+                android:inputType="textEmailAddress"
+                android:hint="Email" />
+
+            <EditText
+                android:id="@+id/edtpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:textAlignment="center"
+                android:layout_below="@id/edtusername"
+                android:inputType="textPassword"
+                android:padding="20sp"
+                android:textSize="25sp"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:hint="Password"/>
+
+
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtpassword"
+                android:layout_marginTop="40dp"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:padding="20sp"
+                android:background="@color/colorPrimary"
+                android:text="Login" />
+
+            <TextView
+                android:id="@+id/txtnewaccount"
+                android:layout_below="@id/btnlogin"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_marginLeft="110sp"
+                android:layout_marginTop="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Creat new account" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "459765393522",
+    "firebase_url": "https://wanhar-719f2.firebaseio.com",
+    "project_id": "wanhar-719f2",
+    "storage_bucket": "wanhar-719f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459765393522:android:28530e0b74ddb83e1efaeb",
+        "android_client_info": {
+          "package_name": "com.idc.wanharcarriage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459765393522-f62kq7b10rt7q27leg7ppahn8t4u471t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUz8LRhxLrnwA1WfFHbe4S_i0K3oLULQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459765393522-f62kq7b10rt7q27leg7ppahn8t4u471t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
